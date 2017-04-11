@@ -1,0 +1,29 @@
+{
+  "name": "kitsu-api",
+  "version": "0.0.1",
+  "description": "A NodeJS wrapper for the Kitsu API.",
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --timeout 15000 --recursive --reporter spec"
+  },
+  "engines": {
+    "node": ">=6.3.0"
+  },
+  "keywords": [
+    "anime",
+    "kitsu",
+    "api"
+  ],
+  "main": "kitsu-api.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hieunhit/kitsu-api.git"
+  }
+}
